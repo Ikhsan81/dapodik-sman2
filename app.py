@@ -80,7 +80,7 @@ def main():
             with col1:
                 nisn = st.text_input("NISN")
                 nama = st.text_input("Nama Lengkap")
-                kelas = st.selectbox("Kelas", ["XII MIPA 1", "XII MIPA 2", "XII MIPA 3", "XII MIPA 4", "XII MIPA 5", "XII MIPA 6", "XII MIPA 7", "XII IPS 1", "XII IPS 2", "XII IPS 3"])
+                kelas = st.selectbox("Kelas", ["XII-1", "XII-2", "XII-3", "XII-4", "XII-5", "XII-6", "XII-7", "XII-8", "XII-9", "XII-10"])
                 jk = st.radio("Jenis Kelamin", ["L", "P"])
             with col2:
                 tmp_lahir = st.text_input("Tempat Lahir")
@@ -239,4 +239,5 @@ def main():
                 st.markdown(href, unsafe_allow_html=True)
 
 if __name__ == '__main__':
+
     main()
